@@ -4,39 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/styles.css"/>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="./index.html">WebStudio</a>
-            <ul>
-                <li>
-                    <a href="">Studio</a>
+    <header class="header">
+        <nav class="header-navigation">
+            <a href="./index.html" class="header-logo"><span class="header-logo-iris">Web</span>Studio</a>
+            <ul class="header-menu">
+                <li class="header-menu-item">
+                    <a href="" class="header-menu-link">Studio</a>
                 </li>
-                <li>
-                    <a href="">Portfolio</a>
+                <li class="header-menu-item">
+                    <a href="" class="header-menu-link">Portfolio</a>
                 </li>
-                <li>
-                    <a href="">Contacts</a>
+                <li class="header-menu-item">
+                    <a href="" class="header-menu-link">Contacts</a>
                 </li>
             </ul>
         </nav>
         <address>
-            <ul>
-                <li>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <ul class="address">
+                <li class="address-menu">
+                    <a class="address-menu-link" href="mailto:info@devstudio.com" class="address-link">info@devstudio.com</a>
                 </li>
-                <li>
-                    <a href="tel:110001111111">+11 (000) 111-11-11</a>
+                <li class="address-menu">
+                    <a class="address-menu-link" href="tel:110001111111" class="address-link">+11 (000) 111-11-11</a>
                 </li>
             </ul>
         </address>
      </header>
     <main>
-        <section>
-            <h1>Effective Solutions
+        <section class="hero">
+            <h1 class="hero-title">Effective Solutions
             for Your Business</h1>
-            <button type="button">Order Service</button>
+            <button class="hero-bye-btn" type="button">Order Service</button>
         </section>
         <section>
             <h2 hidden>Features</h2>
@@ -82,6 +87,41 @@
                     <img src="./images/img-4.jpg" alt="Daniel Wilson" width="264" height="260"/>
                     <h3>Daniel Wilson</h3>
                     <p>UI Designer</p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Our Portfolio</h2>
+            <ul>
+                <li>
+                    <img src="./images/portfolio-1-min.png" alt="Banking App" width="360" height="300">
+                    <h3>Banking App</h3>
+                    <p>App</p>
+                </li>
+                <li>
+                    <img src="./images/portfolio-2-min.png" alt="Cashless Payment" width="360" height="300">
+                    <h3>Cashless Payment</h3>
+                    <p>Marketing</p>
+                </li>
+                <li>
+                    <img src="./images/portfolio-3-min.png" alt="Meditation App" width="360" height="300">
+                    <h3>Meditation App</h3>
+                    <p>App</p>
+                </li>
+                <li>
+                    <img src="./images/portfolio-4-min.png" alt="Taxi Service" width="360" height="300">
+                    <h3>Taxi Service</h3>
+                    <p>Marketing</p>
+                </li>
+                <li>
+                    <img src="./images/portfolio-5-min.png" alt="Screen Illustrations" width="360" height="300">
+                    <h3>Screen Illustrations</h3>
+                    <p>Design</p>
+                </li>
+                <li>
+                    <img src="./images/portfolio-6-min.png" alt="Online Courses" width="360" height="300">
+                    <h3>Online Courses</h3>
+                    <p>Marketing</p>
                 </li>
             </ul>
         </section>
