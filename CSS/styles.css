@@ -7,24 +7,24 @@ body{
 
 .header-logo {
     Copy color: var(--NAVY-BLUE, #2E2F42);
-        font-family: Raleway;
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
-        letter-spacing: -0.03em;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 
 .header-logo-iris {
-    color: var(--IRIS, #4D5AE5);
-        font-family: Raleway;
+        color: #4d5ae5;
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
-        letter-spacing: -0.03em;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
 }
-
+ 
 .header-menu {}
 
 .header-menu-item {}
@@ -35,7 +35,7 @@ body{
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
-        letter-spacing: -0.02em;
+        letter-spacing: 0.02em;
 }
 
 .address {}
@@ -48,7 +48,7 @@ body{
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
-        letter-spacing: -0.02em;
+        letter-spacing: 0.02em;
 }
 
 .hero {}
@@ -61,7 +61,7 @@ body{
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
-        letter-spacing: -0.02em;
+        letter-spacing: 0.02em;
 }
 
 .hero-bye-btn {
@@ -70,8 +70,161 @@ body{
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
-        letter-spacing: -0.04em;
+        letter-spacing: 0.04em;
         border-radius: 4px;
         background: var(--IRIS, #4D5AE5);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.features {}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.features-menu {}
+
+.features-menu-item {
+        color: #2e2f42;
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+}
+
+.features-menu-text {
+    color: #434455;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.team {}
+
+.team-title {
+        color: #2e2f42;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+
+.team-menu {}
+
+.team-menu-item {
+    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.team-menu-photos {
+    background: url(<path-to-image>), lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
+}
+
+.team-menu-names {
+        color: #2e2f42;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.team-menu-text {
+        color: #434455;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.portfolio {}
+
+.portfolio-title {
+        color: #2e2f42;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+
+.portfolio-menu {}
+
+.portfolio-menu-item {
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+}
+
+.portfolio-menu-images {}
+
+.portfolio-menu-subtitle {
+        color: #2e2f42;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.portfolio-menu-text {
+        color: #434455;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.footer {
+    background: #2e2f42;
+}
+
+.footer-logo {
+        color: #f4f4fd;
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+
+.footer-logo-iris {
+        color: #4d5ae5;
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+
+.footer-text {
+    color: #f4f4fd; 
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
