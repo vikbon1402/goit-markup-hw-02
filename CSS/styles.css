@@ -4,3 +4,74 @@ body{
     color: #434455;
     background-color: #FFFFFF;
 }
+
+.header-logo {
+    Copy color: var(--NAVY-BLUE, #2E2F42);
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+}
+
+.header-logo-iris {
+    color: var(--IRIS, #4D5AE5);
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+}
+
+.header-menu {}
+
+.header-menu-item {}
+
+.header-menu-link {
+        color: var(--NAVY-BLUE, #2E2F42);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: -0.02em;
+}
+
+.address {}
+
+.address-menu {}
+
+.address-menu-link {
+        color: var(--SLATE, #434455);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: -0.02em;
+}
+
+.hero {}
+
+.hero-title {
+        background: var(--NAVY-BLUE, #2E2F42);
+        color: var(--WHITE, #FFF);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: -0.02em;
+}
+
+.hero-bye-btn {
+    color: var(--WHITE, #FFF);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: -0.04em;
+        border-radius: 4px;
+        background: var(--IRIS, #4D5AE5);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
