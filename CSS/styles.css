@@ -75,7 +75,9 @@ body{
         background: var(--IRIS, #4D5AE5);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
-.features {}
+.features {
+    background-color: #2e2f42;
+}
 
 .visually-hidden {
     position: absolute;
@@ -111,7 +113,9 @@ body{
         letter-spacing: 0.02em;
 }
 
-.team {}
+.team {
+    background-color: #F4F4FD
+}
 
 .team-title {
         color: #2e2f42;
@@ -201,7 +205,7 @@ body{
 }
 
 .footer-logo {
-        color: #f4f4fd;
+        color:#f4f4fd;
         font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
@@ -211,7 +215,7 @@ body{
 }
 
 .footer-logo-iris {
-        color: #4d5ae5;
+        color:#4d5ae5;
         font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
@@ -221,7 +225,7 @@ body{
 }
 
 .footer-text {
-    color: #f4f4fd; 
+    color:#f4f4fd; 
         font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
