@@ -2,11 +2,11 @@ body{
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
-.header-logo {
-    Copy color: var(--NAVY-BLUE, #2E2F42);
+.header-logo-studio{
+        color: #2e2f42;
         font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
@@ -15,7 +15,7 @@ body{
         text-transform: uppercase;
 }
 
-.header-logo-iris {
+.header-logo {
         color: #4d5ae5;
         font-family: "Raleway", sans-serif;
         font-size: 18px;
@@ -30,7 +30,7 @@ body{
 .header-menu-item {}
 
 .header-menu-link {
-        color: var(--NAVY-BLUE, #2E2F42);
+        color: #2e2f42;
         font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
@@ -38,12 +38,14 @@ body{
         letter-spacing: 0.02em;
 }
 
-.address {}
+.address {
+        font-style: normal;
+}
 
 .address-menu {}
 
 .address-menu-link {
-        color: var(--SLATE, #434455);
+        color: #434455;
         font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
@@ -54,8 +56,8 @@ body{
 .hero {}
 
 .hero-title {
-        background: var(--NAVY-BLUE, #2E2F42);
-        color: var(--WHITE, #FFF);
+        background: #2e2f42;
+        color: #fff;
         text-align: center;
         font-family: Roboto;
         font-size: 56px;
@@ -65,14 +67,14 @@ body{
 }
 
 .hero-bye-btn {
-    color: var(--WHITE, #FFF);
+        color: #fff;
         font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
         border-radius: 4px;
-        background: var(--IRIS, #4D5AE5);
+        background: #4d5ae5;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .features {
@@ -114,7 +116,7 @@ body{
 }
 
 .team {
-    background-color: #F4F4FD
+    background-color: #f4f4fd;
 }
 
 .team-title {
@@ -176,7 +178,7 @@ body{
 .portfolio-menu {}
 
 .portfolio-menu-item {
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    border: 1px solid,color: #e7e9fc;
     background: var(--WHITE, #FFF);
 }
 
@@ -204,7 +206,7 @@ body{
     background: #2e2f42;
 }
 
-.footer-logo {
+.footer-logo-studio {
         color:#f4f4fd;
         font-family: "Raleway", sans-serif;
         font-size: 18px;
@@ -214,7 +216,7 @@ body{
         text-transform: uppercase;
 }
 
-.footer-logo-iris {
+.footer-logo {
         color:#4d5ae5;
         font-family: "Raleway", sans-serif;
         font-size: 18px;
