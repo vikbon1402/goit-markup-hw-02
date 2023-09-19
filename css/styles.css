@@ -5,6 +5,19 @@ body {
     background-color: #ffffff;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .header-logo-studio {
     color: #2e2f42;
     font-family: "Raleway", sans-serif;
@@ -96,7 +109,6 @@ body {
     letter-spacing: 0.04em;
     border-radius: 4px;
     background: #4d5ae5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
 
