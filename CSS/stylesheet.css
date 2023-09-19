@@ -6,7 +6,7 @@ body{
 }
 
 .header-logo-studio{
-        color: #2e2f42;
+         color: #2e2f42;
         font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
@@ -36,6 +36,13 @@ body{
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        }
+
+.header-menu-link:hover{
+        color:#404bbf;
+}
+.header-menu-link:active{
+        color:#404bbf;
 }
 
 .address {
@@ -44,7 +51,9 @@ body{
 
 .address-menu {}
 
-.address-menu-link {
+.address-item{}
+
+.address-item-link {
         color: #434455;
         font-family: Roboto;
         font-size: 16px;
@@ -52,6 +61,15 @@ body{
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
+
+.address-item-link:hover{
+        color: #404bbf;
+}
+
+.address-item-link:active{
+        color:#404bbf;
+}
+
 
 .hero {}
 
