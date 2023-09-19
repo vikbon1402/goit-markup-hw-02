@@ -41,7 +41,7 @@ body{
 .header-menu-link:hover{
         color:#404bbf;
 }
-.header-menu-link:active{
+.header-menu-link:focus{
         color:#404bbf;
 }
 
@@ -66,18 +66,20 @@ body{
         color: #404bbf;
 }
 
-.address-item-link:active{
+.address-item-link:focus{
         color:#404bbf;
 }
 
 
-.hero {}
+.hero {
+        background-color: #2e2f42;
+}
 
 .hero-title {
-        background: #2e2f42;
+        background-color:#2e2f42;
         color: #fff;
         text-align: center;
-        font-family: Roboto;
+        font-family: "Roboto", sans-serif;
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
@@ -86,7 +88,7 @@ body{
 
 .hero-bye-btn {
         color: #fff;
-        font-family: Roboto;
+        font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
@@ -94,6 +96,15 @@ body{
         border-radius: 4px;
         background: #4d5ae5;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        cursor: pointer;
+}
+
+.hero-bye-btn:hover{
+        background-color:#404BBF;
+}
+
+.hero-bye-btn:focus{
+        background-color:#404BBF;
 }
 .features {
     background-color: #2e2f42;
